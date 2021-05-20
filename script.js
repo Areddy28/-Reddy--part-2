@@ -1,5 +1,5 @@
 
-let name = prompt("Name your pet?");  
+let petname = prompt("Name your pet?");  
 let happiness = 0;
 let energy = 0;  
 
@@ -20,6 +20,6 @@ for (let i = 0; i<6; i++) {
         } else {
         }         
     } 
-console.log("happiness"); 
-console.log("energy"); 
-console.log("Astro has 6 happiness and 2 energy"); 
+console.log(petname + "", "has " + happiness, "" + "happiness and " + energy,"" + "energy ");  
+
+
